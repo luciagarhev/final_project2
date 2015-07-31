@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+   <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+  <title id="home-title">Entertainment 101</title>
+   
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+   
+ </head>
+ <body>
+   
+    <div id="backgroundContainer">
+<div class="container">
+  <!-- MAKE SURE EVERYTHING YOU WANT FOR YOUR BODY GOES INSIDE THIS TAG! -->
+   <div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="container">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Home</a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a id="searchPage" href="index2.html">Search</a>
+                </li>
+            </ul>
+        </div><!--/.nav-collapse -->
+
+    </div>
+</div>
+  
+<div class="page-header">
+    <h1 id="homeTitle">Entertainment 101</h1>
+</div>
+   
+  <div class="container">
+	<div class="row">
+        <div class="col-md-6">
+    		<h2 id="searchTitle">Search your favorite TV show or movie</h2>
+            <div id="custom-search-input">
+                <div class="input-group col-md-12">
+                    <input id="textInput" type="text" class="form-control input-lg" placeholder="Search" />
+                    <span class="input-group-btn">
+                        <button id="searchButton" class="btn btn-info btn-lg" type="button">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+	</div>
+</div>
+   <div id="main_container">
+     <div id="movie_title">
+       <h2 id="year"></h2>
+     </div>
+     
+     <div id="left_column" class="col-md-3"> 
+       <div id="rated" class="row2"> <span> </span> </div>
+       <div id="director" class="medium"></div>
+         <div id="plot" class="large"> </div>       
+            <div id="language" class="row2"></div>  
+     </div>
+     
+     <div id="middle_column" class="col-md-6">
+         <div id="genre" class="row2"></div>    
+           <div id="poster" class="poster">
+      <img id="poster-image" class="img-responsive" src="">
+           </div>
+         <div id="released" class="row2"></div>  
+     </div>
+     
+     <div id="right_column" class="col-md-3">
+       <div id="runtime" class="row2"> </div>
+         <div id="cast" class="large"> </div>  
+           <div id="imdb_rating" class="medium"> </div>  
+             <div id="country" class="row2"></div>  
+     </div>
+       
+     <div id="awards"></div> 
+   </div>
+  </div>
+   </div>
+   <!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+   
+   <script src="../js/script.js"></script>
+ </body>
+</html>
