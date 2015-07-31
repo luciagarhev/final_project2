@@ -1,4 +1,4 @@
-// Rotten Tomatoes api key : mavx75yvcztanypnfzg9n262
+// Rotten Tomatoes api key : mavx75yvcztanypnfzg9n262 
 $(document).ready(function(){
   
   $("#searchButton").click(function(){
