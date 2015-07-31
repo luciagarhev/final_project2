@@ -2,7 +2,7 @@
 
 body{
   background-image: url("http://www.mouthlondon.com/wp-content/uploads/2014/05/blueombre.jpg");
-  background-size: cover;
+  background-size: cover; 
   background-repeat: no-repeat;
   z-index: -1;
 }
